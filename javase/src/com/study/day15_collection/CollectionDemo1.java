@@ -17,6 +17,8 @@ package com.study.day15_collection;
  *	集合只用于存储对象，集合长度是可变的，集合可以存储不同类型的对象。
  *	针对不同的需求，Java就提供了不同的集合类，
  *数据结构：数据的存储方式。
+ *这个体系的老大是Collection
+ *
  */
 public class CollectionDemo1 {
 
