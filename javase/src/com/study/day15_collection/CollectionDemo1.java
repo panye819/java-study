@@ -1,5 +1,8 @@
 package com.study.day15_collection;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 /**
  * @author bluebell325
  *集合的由来：
@@ -18,8 +21,30 @@ package com.study.day15_collection;
  *	针对不同的需求，Java就提供了不同的集合类，
  *数据结构：数据的存储方式。
  *这个体系的老大是Collection
+ *collection接口概述：
+ *	Collection层次中的根接口。Collection表示一组对象，这些对象也成为collection元素。
+ *
  *
  */
 public class CollectionDemo1 {
+	public static void main(String[] args) {
+		
+		
+		//测试不带all的方法
+//		Collection c = new Collection;这种写法是错误的，因为Collection是接口，不能实例化
+		Collection c =  new ArrayList();
+//		System.out.println("add: "+c.add("hello"));
+		c.add("hello");
+		c.add("world");
+		c.add("java");
+		System.out.println("c: "+c);
+//		c.clear();
+//		System.out.println("c: "+c);
+		System.out.println("contain: "+c.contains("hello"));
+		System.out.println("contain: "+c.contains("hello1"));
+		System.out.println("isEmpty: "+c.isEmpty());
+		System.out.println("size: "+c.size());
+		
+	}
 
 }
