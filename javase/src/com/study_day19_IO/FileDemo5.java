@@ -1,4 +1,4 @@
-package com.study.io;
+package com.study_day19_IO;
 /*IO流的分类：
  * 	1）根据流向划分：输入流和输出流
  * 	2）根据数据的单位划分：字节流和字符流

@@ -1,4 +1,4 @@
-package com.study.io;
+package com.study_day19_IO;
 
 import java.io.File;
 
