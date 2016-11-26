@@ -25,38 +25,33 @@ package com.study.day23_Thread;
  *				C：创建对象
  *				D：启动线程
  *	
+ *	线程优先级默认为5，设置范围为1～10，优先级高仅仅表示线程获取的CPU时间片的几率高，但是要在次数比较多的情况下或者运行时间比较长才能看出效果。
  */
-class MyThread1 extends Thread{
 
-	@Override
-	public void run() {
-		// TODO Auto-generated method stub
-		for (int x=0;x<10;x++){
-			System.out.println(x+"我在玩游戏。。。。。");
-		}
-	}
-}
-class MyThread2 extends Thread{
-
-	@Override
-	public void run() {
-		// TODO Auto-generated method stub
-		for (int x=0;x<10;x++){
-			System.out.println(x+"听音乐。。。。。");
-		}
-	}
-}
 public class ThreadDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
 		MyThread1 mt1 = new MyThread1();
 		MyThread2 mt2 = new MyThread2();
+		MyThread3 mt3 = new MyThread3();
+		
+		mt1.setName("Game_Thread");
+		mt2.setName("Music_Thread");
+		mt3.setName("Doc_Thread");
+		
+		mt1.setPriority(10);
+		System.out.println(mt1.getPriority());
+		System.out.println(mt2.getPriority());
+		System.out.println(mt3.getPriority());
 		//直接调用run方法其实就是普通方法的调用，所以使用run方法调用时是单线程的，
 		mt1.start();
 		mt2.start();
+		mt3.start();
 		
+//		MyThread1.sleep(5000);
+		System.out.println(Thread.currentThread().getName());
 
 	}
 
