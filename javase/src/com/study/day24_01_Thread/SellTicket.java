@@ -1,4 +1,4 @@
-package com.study.day24_Thread;
+package com.study.day24_01_Thread;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

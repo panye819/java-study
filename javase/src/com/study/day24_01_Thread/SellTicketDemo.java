@@ -1,4 +1,4 @@
-package com.study.day24_Thread;
+package com.study.day24_01_Thread;
 
 /**
  *	为了更清楚的表达如何加锁和释放锁，JDK5以后提供了一个新的所对象Lock
