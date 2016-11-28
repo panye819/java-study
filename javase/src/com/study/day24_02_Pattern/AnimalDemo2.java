@@ -1,4 +1,4 @@
-package com.study.day24_01_Pattern;
+package com.study.day24_02_Pattern;
 
 /**
  *工厂方法模式概述：

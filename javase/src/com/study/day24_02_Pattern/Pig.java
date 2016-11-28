@@ -1,4 +1,4 @@
-package com.study.day24_01_Pattern;
+package com.study.day24_02_Pattern;
 
 public class Pig extends Animal {
 

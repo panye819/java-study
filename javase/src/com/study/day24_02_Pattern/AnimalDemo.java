@@ -1,4 +1,4 @@
-package com.study.day24_01_Pattern;
+package com.study.day24_02_Pattern;
 
 /**
  * 简单工厂模式又称为静态工厂方法模式，它定义一个具体的工厂类，负责创建一些类的实例。
