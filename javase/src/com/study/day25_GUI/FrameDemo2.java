@@ -16,6 +16,8 @@ public class FrameDemo2 {
 		//调用一个方法，让窗体可见
 //		f.show();
 		f.setVisible(true);
+		
+		
 	}
 
 }
