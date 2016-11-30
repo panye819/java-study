@@ -1,4 +1,4 @@
-package com.study.variable;
+package com.study.day07_01_variable;
 /*封装概述：
  * 	是指隐藏对象的实现细节，仅对外提供公共访问方式
  * 

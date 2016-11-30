@@ -1,11 +1,11 @@
-package com.study.demo1;
+package com.study.day07_02_encapsulation;
 /*
  * this:是当前类的对象引用。简单的记，它就代表当前类的对象
  * 
  * 		注意：方法被哪个对象调用，在该方法内部的this就代表谁
  * 
  * */
-class Student{
+class Student1{
 	private String name;
 	private int age;
 	
@@ -24,7 +24,7 @@ class Student{
 }
 public class StudentDemo {
 	public static void main(String[] args) {
-		Student s = new Student();
+		Student1 s = new Student1();
 		s.setName("林青霞"); 
 		s.setAge(27);
 		String s1 = s.getName();

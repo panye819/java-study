@@ -1,4 +1,4 @@
-package com.study.variable;
+package com.study.day07_01_variable;
 /*
  * 成员变量和局部变量的区别？
  * A：在类中的位置不同
@@ -16,11 +16,23 @@ package com.study.variable;
  * 注意事项:
  * 		局部变量名称可以和成员变量一样，在方法中使用的时候，采用的是就近原则。
  */
+class Variable{
+	int num = 10;//成员变量
+	public void show(){
+		int num1  = 20;//局部变量
+		System.out.println("num1 in show() is: "+num1);
+//		int num = 100;
+		System.out.println("num in show() is: "+num);
+	}
+}
 public class VariableDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Variable v = new Variable();
 		
+		System.out.println("num in variable is :"+v.num);
+		v.show();
 	}
 
 }
