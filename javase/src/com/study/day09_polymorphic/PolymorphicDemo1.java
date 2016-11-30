@@ -1,4 +1,4 @@
-package com.study.polymorphic;
+package com.study.day09_polymorphic;
 
 /**
  * ∂‡Ã¨£∫

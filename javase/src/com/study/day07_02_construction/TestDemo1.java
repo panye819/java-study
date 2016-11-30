@@ -1,4 +1,4 @@
-package com.study.day09_01;
+package com.study.day07_02_construction;
 /**
  * @author bluebell325
  *定义一个长方形类，其中定义求周长和面积的方法，

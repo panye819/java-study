@@ -1,4 +1,4 @@
-package com.study.inherit;
+package com.study.day08_02_inherit;
 
 /**
  *  

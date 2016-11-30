@@ -1,4 +1,4 @@
-package com.study.inherit;
+package com.study.day08_02_inherit;
 /**
  * this代表本类对应的引用
  * super代表父类存储空间的标识，也可以理解为父类的引用

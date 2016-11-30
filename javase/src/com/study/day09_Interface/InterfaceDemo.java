@@ -1,4 +1,4 @@
-package com.study.InterfaceDemo;
+package com.study.day09_Interface;
 
 /**
  * @author FlyPiG8308

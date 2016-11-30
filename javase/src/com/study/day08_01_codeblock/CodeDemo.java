@@ -1,4 +1,4 @@
-package com.study.codeblock;
+package com.study.day08_01_codeblock;
 
 /**
  * 在Java中，使用{}括起来的代码被称为代码块

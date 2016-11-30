@@ -1,4 +1,4 @@
-package com.study.method;
+package com.study.day05_method;
 
 public class MethodDemo1 {
 	public static void main(String[] args) {

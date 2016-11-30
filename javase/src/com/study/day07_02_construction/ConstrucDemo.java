@@ -1,4 +1,4 @@
-package com.study.construction;
+package com.study.day07_02_construction;
 /*构造方法：
  * 	1、作用：
  * 		用于对对象的数据进行初始化

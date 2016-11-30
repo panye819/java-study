@@ -1,4 +1,4 @@
-package com.study.method_rewrite;
+package com.study.day05_method;
 
 /**
  * 
