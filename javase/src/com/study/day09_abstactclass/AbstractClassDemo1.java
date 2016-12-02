@@ -1,4 +1,4 @@
-package com.study.abstactclass;
+package com.study.day09_abstactclass;
 
 /**
  * @author FlyPiG8308
