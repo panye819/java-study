@@ -82,7 +82,7 @@ class Student{
 	}
 	
 }
-public class Constructor2 {
+public class Constructor02 {
 	public static void main(String[] args) {
 		Student st1 = new Student("Tom",19,84.0f,91.0f,75.0f);
 		System.out.println(st1.getInfo());
