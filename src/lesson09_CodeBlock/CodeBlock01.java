@@ -69,12 +69,12 @@ public class CodeBlock01 {
 		 	int x = 10;
 			System.out.println("x: "+x);
 			
-			Code c1 = new Code();
-			System.out.println("--------------------");
-			Code c2 = new Code();
-			System.out.println("--------------------");
-			Code c3 = new Code(1);
-			
+//			Code c1 = new Code();
+//			System.out.println("--------------------");
+//			Code c2 = new Code();
+//			System.out.println("--------------------");
+//			Code c3 = new Code(1);
+//			
 			
 			
 	}

@@ -24,5 +24,5 @@ public class PolymorphicDemo02 {
 						//类进行相互对象转换操作，这种异常不会在编译阶段产生，只会在运行时抛出。
 		b1.fun2();
 	}
-
+	//为了保证对象的向下转型正确，在操作前最好加上isinstanceof关键字进行判断。
 }
