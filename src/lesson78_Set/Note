@@ -1,0 +1,8 @@
+1、Set接口：
+	最大的特点是里面没有任何重复的元素，在Set接口中有以下的两个子类是常用的子类：
+		1）TreeSet：
+			有序存放
+		2）HashSet：
+			散列存放
+2、在程序中是通过object类中的hashcode()和equals()方法来完成重复元素的验证。
+	所以，一个完整的类必须覆写Object类中的hashcode()和equals()方法.
