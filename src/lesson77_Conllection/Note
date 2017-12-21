@@ -1,0 +1,22 @@
+1、类集：
+	基本作用就是完成了一个动态的对象数组，里面的数据元素可以动态的增加。
+	类集中提供了一下的几种接口:
+		a、单值操作接口：
+			Collection、List、Set
+			   List和Set是Collection接口的子接口
+		b、一对值的操作接口：
+			Map
+		c、排序的操作接口：
+			SortedMap、SortedSet
+		d、输出的接口：
+			Iterator、ListIterator、Enumeration
+		e、队列：
+			Queue
+	所有的类集都保存在java.util包中。
+2、Collection：
+	Collection接口时一个最重要的接口，其中规定了一个集合的基本操作方法，此接口下有两个子接口，
+	这两个子接口又分别有着各自的特点，在使用上完全不一样。
+	在JDK1.5之后，Collection接口使用了泛型技术，可以保证接口中的操作的内容更加安全。
+	在实际开发中，已经很少使用Collection去完成集合的操作功能了，基本上都使用了其子接口：List、Set
+	
+3、如果需要对多个对象进行序列化操作，则需要使用数组进行操作。

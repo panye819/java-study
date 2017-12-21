@@ -1,4 +1,4 @@
-package section57_reflect;
+package section85_reflect;
 
 public class ReflectDemo {
 	static {
