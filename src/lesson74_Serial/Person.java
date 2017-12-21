@@ -5,8 +5,8 @@ import java.io.Serializable;
 public class Person implements Serializable{
 	private String name;
 	private int age;
-	private transient String gender;
-	
+//	private transient String gender;
+	private String gender;
 	public Person(String name,int age,String gender) {
 		this.name = name;
 		this.age = age;	
