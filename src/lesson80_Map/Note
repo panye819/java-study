@@ -1,0 +1,32 @@
+1、Map接口保存的内容是一对值，所有的内容都是以key-value的形式保存的
+	Map接口本身有三个常用的子类：
+		HashMap:
+			没有重复元素，如果有重复元素会进行覆盖操作。
+			本身属于无序操作
+		HashTable：
+			
+		TreeMap：
+			
+2、Map的最大特点是用于查找的操作，如果查找到了则返回内容，否则返回null
+	Map不能使用Iterator接口输出，如果要想通过Iterator输出，则要借助Map.Entry.
+	在Map中虽然是以一对值的形式出现的，可是真正保存的还是一个单独的对象，即程序将key->value的值
+	放在一个对象中，然后将这个对象加入到了集合中
+	Map.Entry：Map实体
+				从定义格式上可以发现，此接口属于static声明的接口，而且是一个内部接口
+	Map接口使用Iterator输出的标准操作：
+	1）通过Map接口中的：Set<Map.Entry<K,V> entrySet()>方法取得Set集合
+	2）通过Set接口为Iterator进行初始化的操作
+	3）通过Iterator取出每一个Map.Entry
+	4）通过Map.Entry进行key与value的分离
+	
+3、HashMap与Hashtable的区别：
+	都是Map接口的子类
+	HashMap				Hashtable
+	JDK1.2之后推出的		JDK1.0推出的，属于旧的操作类
+	采用异步的处理操作		采用同步的处理操作
+	性能高				性能相对较低
+	非线程安全的操作		线程安全
+	
+	从实际开发来讲，Map接口的最常用的子类就是HashMap
+4、TreeMap
+	可以按照key排序的子类
