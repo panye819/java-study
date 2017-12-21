@@ -32,7 +32,7 @@ public class Person {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Name: "+name+", Age is : "+age;
+		return "Name: "+this.name+", Age is : "+this.age;
 	}
 
 }
