@@ -1,0 +1,12 @@
+1、在Java的类集中集合输出有以下四种方式：
+	Iterator
+	ListIterator
+	foreach
+	Enumeration
+	一般来说，只要碰到了集合输出，想都不想就用Iterator接口
+2、ListIterator是Iterator的子接口
+	Iterator接口的最大特点，是能从前向后迭代输出，如果想执行双向的输出，则只能使用ListIterator接口。
+	但是此接口使用时有一个要求，即只能输出List接口的内容，因为需依靠如下的方法：
+		public ListIterator <E> listIterator()
+	如果要想完成双向输出，则一定要保证先执行了由前向后输出
+	在使用ListIterator接口的时候，还有一个特别大的特点，可以增加及修改数据
