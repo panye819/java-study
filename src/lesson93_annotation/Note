@@ -1,0 +1,23 @@
+1、Annotation：
+	实际上表示的是一种注释的语法，在Java中最早的程序是提倡程序与配置代码相分离，而最新的理论是将所有的配置直接
+	写入到程序之中，那么如果想要完成这样的功能，则就要使用Annotation。
+	
+2、系统内建的Annotation：
+	1）@override:
+		表示进行正确的覆写操作
+		会检查在覆写方法的过程中是否有错误
+	2）@Deprecated:
+		使用该声明只是不建议使用，如果使用的话，只会出现警告信息而已。
+	3）@SuprressWarning:
+		表示的是压制警告，如果有一些警告信息，则可以压制掉，不出现警告的提示
+3、自定义Annotation:
+	定义Annotation的语法：
+			public @interface Annotation的名称{}
+4、Rentention和RententionPolicy
+	Rentention本身是一个Annotation，其中的取值是通过RententionPolicy这个枚举类型指定的范围
+	在RententionPolicy中规定了以下的三个范围：
+		a）只在源代码中起作用：public static final RententionPolicy SOURCE
+		b）只在编译之后的class中起作用：public static final RententionPolicy CLASS
+		a）在运行时起作用：public static final RententionPolicy RUNTIME
+5、反射与Annotation：
+	一个Annotation如果要想起作用，则肯定要和反射配合使用
